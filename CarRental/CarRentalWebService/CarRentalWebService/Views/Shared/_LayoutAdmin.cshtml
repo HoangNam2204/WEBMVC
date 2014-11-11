@@ -54,7 +54,9 @@
         }
         else
         {
-            Response.Write("<script language='JavaScript'> alert('Bạn phải đăng nhập!'); </script>");
+            //Response.Write("<script language='JavaScript'> alert('Bạn phải đăng nhập!'); </script>");
+         
+            @Html.ActionLink("Login", "DangNhap", "DangNhap")
         }
         <hr />
         <footer>
